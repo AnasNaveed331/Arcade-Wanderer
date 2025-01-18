@@ -31,7 +31,7 @@ h1 {
     box-shadow: 0 0 10px lime, 0 0 20px magenta;
 }
 
-.snake {
+.orb {
     height: 1em;
     width: 1em;
     background-color: lime;

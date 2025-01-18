@@ -1,42 +1,42 @@
 const container=document.querySelector(".container")
-const snake=document.querySelector(".snake")
+const orb=document.querySelector(".orb")
 const topp=document.querySelector(".top")
 const left=document.querySelector(".left")
 const right=document.querySelector(".right")
 const down=document.querySelector(".down")
 
 
-let snakeTop = 0;
-let snakeLeft = 0;
+let orbTop = 0;
+let orbLeft = 0;
 getcomput=window.getComputedStyle(container);
 border_width=getcomput.getPropertyValue("border-width")
 
 
 left.addEventListener("click", () => {
-    if (snakeLeft > 0) { // Prevent moving out of bounds
-      snakeLeft -= 10;
-      snake.style.left = snakeLeft + "px";
+    if (orbLeft > 0) { // Prevent moving out of bounds
+      orbLeft -= 10;
+      orb.style.left = orbLeft + "px";
     }
   });
 
   right.addEventListener("click", () => {
-    if (snakeLeft < container.offsetWidth - snake.offsetWidth -parseFloat(border_width)) {
-      snakeLeft += 10;
-      snake.style.left = snakeLeft + "px";
+    if (orbLeft < container.offsetWidth - orb.offsetWidth -parseFloat(border_width)) {
+      orbLeft += 10;
+      orb.style.left = orbLeft + "px";
     }
 })
 
 topp.addEventListener("click", () => {
-    if (snakeTop > 0) { // Prevent moving out of bounds
-      snakeTop -= 10;
-      snake.style.top = snakeTop + "px";
+    if (orbTop > 0) { // Prevent moving out of bounds
+      orbTop -= 10;
+      orb.style.top = orbTop + "px";
     }
   });
 
 down.addEventListener("click", () => {
-    if (snakeTop < container.offsetHeight - snake.offsetHeight-parseFloat(border_width)) {
-      snakeTop += 10;
-      snake.style.top = snakeTop + "px";
+    if (orbTop < container.offsetHeight - orb.offsetHeight-parseFloat(border_width)) {
+      orbTop += 10;
+      orb.style.top = orbTop + "px";
     }
   });
 
