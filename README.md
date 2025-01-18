@@ -9,7 +9,7 @@ Welcome to **Arcade Wanderer**! This is a retro-style grid-based movement game t
 - **Boundary Detection:** The Orb won't go out of bounds, ensuring smooth gameplay within the grid.
 
 ## Demo 🕹️
-![image](https://github.com/user-attachments/assets/fc234ff6-9e24-4f36-8b24-2287d844b852)
+![image](![image](https://github.com/user-attachments/assets/80333f8e-40b4-40c6-af23-7f1fceaa8cf9))
 
 ## Play the Game 🎮  
 You can try out **Arcade Wanderer** here: [Play Arcade Wanderer](https://anasnaveed331.github.io/Arcade-Wanderer/)  
