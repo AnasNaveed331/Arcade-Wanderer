@@ -12,7 +12,8 @@ Welcome to **Arcade Wanderer**! This is a retro-style grid-based movement game t
 ![image](https://github.com/user-attachments/assets/fc234ff6-9e24-4f36-8b24-2287d844b852)
 
 ## Play the Game 🎮  
-You can try out **Arcade Wanderer** here: [Play Arcade Wanderer]([https://yourusername.github.io/arcade-wanderer/](https://anasnaveed331.github.io/Arcade-Wanderer/))  
+You can try out **Arcade Wanderer** here: [Play Arcade Wanderer](https://anasnaveed331.github.io/Arcade-Wanderer/)  
+
 
 ## What I Learned 📚
 During the development of **Arcade Wanderer**, I explored several key concepts and skills:  
