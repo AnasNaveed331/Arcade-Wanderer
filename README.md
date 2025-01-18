@@ -1,4 +1,4 @@
-# Arcade Wanderer 🎮🐍
+# Arcade Wanderer 🎮🟢
 
 Welcome to **Arcade Wanderer**! This is a retro-style grid-based movement game that you can play using directional buttons. The game is inspired by the classic arcade feel, featuring neon aesthetics and smooth movement within a defined container.  
 
